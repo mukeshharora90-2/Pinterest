@@ -1,0 +1,6 @@
+{
+  "name": "VeritasCraft — Digital Products Store & Editorial Publishing Platform",
+  "description": "A premium digital products store, editorial publication, and Pinterest-driven traffic engine with conversion-focused landing pages, customizable theme engine, and secure digital delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

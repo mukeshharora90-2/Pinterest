@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --theme-bg: #FAF8F4;
+    --theme-surface: #FFFFFF;
+    --theme-text: #20232A;
+    --theme-primary: #3157D5;
+    --theme-primary-hover: #2646B8;
+    --theme-accent: #4C9B91;
+    --theme-soft-accent: #EEF3FF;
+    --theme-offer: #E77A67;
+    --theme-border: #E8E5DF;
+    --theme-radius: 0.5rem;
+    --font-heading: 'Fraunces', Georgia, serif;
+    --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  body {
+    background-color: var(--theme-bg);
+    color: var(--theme-text);
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: var(--font-heading);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
